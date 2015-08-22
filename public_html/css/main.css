@@ -1,0 +1,106 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+* {
+    /*color:red;*/
+}
+
+body {
+/*    padding-bottom: 20px;
+    background: url('../img/hero-unit-flat.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 1px solid red;
+    margin:10px;*/
+    padding:10px;
+}
+.front-image {
+    background: url('../img/hero-unit-flat.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.nbsp-front-page {
+    /*height:100px;*/
+}
+.container_link_guide_to_vote {
+    background-color:  #74aa3d;
+    padding:.5em 0 .5em 0;
+    text-align: center;
+}
+.container_link_get_in_touch {
+    background-color:  #74aa3d;
+    padding:.5em 0 .5em 0;
+    text-align: center;
+}
+.container_link_guide_to_vote a:link{
+    color:#FFFFFF;
+}
+.container_link_get_in_touch a:link {
+    color:#FFFFFF;
+}
+
+#mce-ENDORSE {
+    width: 60em;
+    height: 10em;
+}
+.mc-field-group input {
+    border:none;
+    border-bottom: 1px solid #000000;
+    /*width:30em;*/
+}
+
+.button {
+    width: 10%;
+    background-color: #74aa3d;
+    color:#FFFFFF;
+    border:none;
+
+}
+
+/* for donation form */
+.radio_donation_amount {
+    padding-left: 0px;
+}
+.radio_donation_amount li {
+    list-style: none;
+    display:inline-flex;
+    padding:.5em 1em 0 0;
+}
+.radio_donation_amount li input {
+    width:22px;
+}
+.container_rebate_amount {
+    padding-top:0.5em;
+}
+.txbox_donation_amount {
+    width:45%;
+    border:none;
+    border-bottom: 1px solid #000000;
+}
+.btn_exe_donation {
+    width: 80%;
+    font-size:110%;
+    padding-top:.25em;
+    padding-bottom:.25em;
+    background-color: #74aa3d;
+    color:#FFFFFF;
+    border:none;
+}
+.container_rebate_amount {
+    padding-top:0.5em;
+}
+.btn_calc_rebate {
+    width: 80%;
+    font-size:110%;
+    padding-top:.25em;
+    padding-bottom:.25em;
+    background-color: #74aa3d;
+    color:#FFFFFF;
+    border:none;
+    white-space:normal;
+}
